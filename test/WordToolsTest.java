@@ -14,7 +14,7 @@ public class WordToolsTest {
 		  XWPFDocument doc = new XWPFDocument();
 	      XWPFParagraph p_title = doc.createParagraph(); 
 	      p_title.setAlignment(ParagraphAlignment.CENTER);
-	      //test
+	      //commit test
 	      
 	      XWPFParagraph p_single_title = doc.createParagraph();	     
 	      XWPFParagraph p_single = doc.createParagraph();	 
