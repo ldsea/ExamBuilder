@@ -29,7 +29,7 @@ public class WordToolsTest {
 	      r1.setText("笔试试卷");
 	      r1.setFontFamily("Microsoft Yahei");
 	      r1.setFontSize(80);
-	      XWPFRun r2 = p1.createRun();
+	      XWPFRun r2 = p_single.createRun();
 	      r2.setText("测试啊");
 	      FileOutputStream out = new FileOutputStream("/Users/ldsea/Desktop/test.docx");
 	      doc.write(out);
